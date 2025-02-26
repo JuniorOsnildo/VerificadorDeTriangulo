@@ -12,7 +12,7 @@ public class Triangulo(float ladoA, float ladoB, float ladoC)
 
     public void ProcessarTriangulo()
     {
-        if (validarLados())
+        if (ValidarLados())
         {
             RotularTriangulo();
             Console.WriteLine(this.ToString());
@@ -23,7 +23,7 @@ public class Triangulo(float ladoA, float ladoB, float ladoC)
         }
     }
     
-    private bool validarLados()
+    private bool ValidarLados()
     {
         return ladoA+ladoB > ladoC && ladoA+ladoC > ladoB && ladoC+ladoB > ladoA;
     }
