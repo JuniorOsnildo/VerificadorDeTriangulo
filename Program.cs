@@ -1,0 +1,3 @@
+﻿using ferificadorDeTriangulo;
+
+Menu.AbrirMenu();
